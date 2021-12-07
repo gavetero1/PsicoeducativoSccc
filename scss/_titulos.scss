@@ -1,0 +1,19 @@
+@media only screen and (min-width: 0px) and (max-width: 768px){
+	.gradiente {
+	background-image: linear-gradient(lightblue,white);
+	height: auto;
+	font-family: $roboto;
+	margin-left: 25px;
+	margin-right: 9px;
+}
+}
+@media only screen and (min-width: 1024px){
+$roboto:roboto;
+.gradiente {
+	background-image: linear-gradient(lightblue,white);
+	height: 50px;
+	font-family: $roboto;
+	margin-left: 25px;
+	margin-right: 9px;
+}
+}

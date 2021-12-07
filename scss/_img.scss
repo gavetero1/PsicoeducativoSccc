@@ -1,0 +1,36 @@
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+$img:img;
+.contentMediaGuias {
+	display: flex;
+	justify-content: center;
+}
+
+.contentMediaImg{
+	border-radius: 15px;
+	border: 3px solid;
+	border-color: darkred;
+	margin-top: $mt-10;
+	margin-bottom: $mb-10;
+	width: auto;
+	height: 200px;
+}
+}
+
+@media only screen and (min-width: 1024px) {
+
+$img:img;
+$mt-10:10px;
+$mb-10:10px;
+.contentMediaGuias {
+	display: flex;
+	justify-content: center;
+}
+
+.contentMediaImg{
+	border-radius: 15px;
+	border: 3px solid;
+	border-color: darkred;
+	margin-top: $mt-10;
+	margin-bottom: $mb-10;
+}
+}
