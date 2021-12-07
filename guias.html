@@ -7,6 +7,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com/%22%3E">
 	<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100;1,900&display=swap" rel="stylesheet">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/estilo.css">
 
 </head> 
@@ -15,17 +16,16 @@
 	<header class="gridHeader">
 		<!-- logo y titulo -->
 		<div class="tituloLogo">
-			<div>
-				<a href="../index.html"><img  src="assets/psico.png" alt="logo" width="100px" height="100px"></a>
+			<div data-aos="fade-down" data-aos-duration="1000">
+				<a href="index.html"><img  src="assets/psico.png" alt="logo" width="100px" height="100px"></a>
 			</div>
-			
-			<a href="../index.html"><h1>Psicoeducativo</h1></a>
+			<a href="index.html" data-aos="fade-down" data-aos-duration="1000"><h1>Psicoeducativo</h1></a>
 		</div>
 		<!-- Cierre logo -->
 		<!--  inicio nav -->
 		<nav>
 			<ul class="navStyle">
-				<li><a href="../index.html">Inicio</a></li>
+				<li><a href="index.html">Inicio</a></li>
 				<li><a href="agendayconsultas.html">Agenda y Consultas</a></li>
 				<li><a href="#">Guias</a></li>
 				<li><a href="novedades.html">Novedades</a></li>
@@ -39,7 +39,7 @@
 		<section class="mainGuiasGrid">
 			<p class="parrafo1Y2">En Psicoeducativo podemos asesorarte con una variedad de herramientas y guias para el complemento de nuestra asesoria y asi de la mano con los padres y profesionales, lograr una atencion efectiva y completa hacie el niño y adolescente.</p>
 			<p class="parrafo1Y2">En esta oportunidad te ofrecemos actividades para los chicos para la atencion en casa de deficiencias del razonamiento verbal, una problematica que se ve muy amenudo en los primeros niveles de la educacion inicial y primaria</p>
-			<div class="contentMediaGuias">
+			<div data-aos="fade-right" data-aos-duration="1000" class="contentMediaGuias">
 				<img src="assets/teacherreading.jpg" width="500px" height="300px" class="contentMediaImg">
 			</div>
 			<!-- Inicio de enlaces-->
@@ -90,5 +90,9 @@
 	</div>
 </footer>
 	<!-- cierre footer -->
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
