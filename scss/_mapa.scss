@@ -1,0 +1,16 @@
+/*manejo de variables, aplica a todo el css*/
+@each $color in $azul, $rojo, $negro {
+	.#{$color}{
+		color:#{$color};
+	}
+}
+/*declaracion de mapa para colores*/
+$estilos: (color:pink,
+	tFuente:80px,);
+/*h3 modificado con el mapa $estilos* a traves del map get*/
+h3{
+	color:map-get($estilos,color,);
+	font-size:map-get($estilos,tFuente) ;
+}
+
+

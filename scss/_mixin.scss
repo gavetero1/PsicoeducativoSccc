@@ -1,0 +1,9 @@
+/*aplicacion de un mixin*/
+@mixin estiloFuente($color,$fSize){
+	color:$color;
+	font-size:$fSize;
+}
+
+h2{
+	@include estiloFuente(red,100px);
+}
