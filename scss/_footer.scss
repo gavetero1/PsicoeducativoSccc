@@ -1,9 +1,9 @@
 $footer:footer;
 footer {
-	font-family: $roboto;
+	font-family:map-get($colores,fontR,);
 }
 .gridFooter {
-	background-color: $azul;
+	background-color:map-get($colores,azul,);
 	margin-top: 30px;
 	display: flex;
 	justify-content: flex-start;
@@ -26,10 +26,10 @@ ul {
 li {
 	list-style-type: none;
 a {
-	color: $negro;
+	color:map-get($colores,negro,);
 	text-decoration: none;
 	&:hover{
-			color: $rojo;
+			color:map-get($colores,rojo,);
 		}
 }
 }

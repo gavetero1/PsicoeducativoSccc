@@ -1,7 +1,8 @@
 $header:header;
 header {
-	font-family: $roboto;
+	font-family:map-get($colores,fontR,);
 }
+/*colores del parcial header modificado con map colores y map get*/
 .tituloLogo {
 	display: flex;
 	justify-content: center;
@@ -11,16 +12,17 @@ header {
 h1 {
 	margin: auto 0;
 	font-weight: 500;
+	font-size: 40px;
 }
 a {
 	margin: auto 0;
 	text-decoration: none;
-	color: $negro;
+	color:map-get($colores,negro,);
 }
 }
 
 .navStyle {
-  background-color:$azul; 
+  background-color:map-get($colores,azul,); 
   list-style-type: none;
   text-align: center;
   margin: 0;
@@ -31,10 +33,10 @@ a {
   	font-size: 25px;
   	padding: 20px;
   	a {
-		color: $negro;
+		color:map-get($colores,negro,);
 		text-decoration: none;
 		&:hover{
-			color: $rojo;
+			color:map-get($colores,rojo,);
 		}
   }
   }
@@ -42,7 +44,7 @@ a {
 
 @media only screen and (min-width: 0px) and (max-width: 768px){
 header {
-	font-family: $roboto;
+	font-family:map-get($colores,fontR,);
 	width: 100%;
 }
 .tituloLogo {
@@ -58,12 +60,12 @@ h1 {
 a {
 	margin: auto 0;
 	text-decoration: none;
-	color: $negro;
+	color:map-get($colores,negro,);
 }
 }
 
 .navStyle {
-  background-color:$azul; 
+  background-color:map-get($colores,azul,); 
   list-style-type: none;
   text-align: center;
   margin: 0;
@@ -74,10 +76,10 @@ a {
   	font-size: 25px;
   	padding: 20px;
   	a {
-		color: $negro;
+		color:map-get($colores,negro,);
 		text-decoration: none;
 		&:hover{
-			color: $rojo;
+			color:map-get($colores,rojo,);
 		}
   }
   }

@@ -3,7 +3,7 @@ $full-width:100%;
 
 
 .grid {
-	gap: 10px;
+	/*gap: 10px;*/
 	padding: 0px;
 	margin: 0px;
 	display: grid;
@@ -31,7 +31,7 @@ $full-width:100%;
 		grid-template-areas: "header" 
 												 "main"  
 												 "footer";
-		gap: 10px;
+		/*gap: 10px;*/
  		grid-template-columns: 100%;
  		font-family: roboto;
  		margin: 0;
