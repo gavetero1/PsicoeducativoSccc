@@ -3,7 +3,6 @@ $full-width:100%;
 
 
 .grid {
-	/*gap: 10px;*/
 	padding: 0px;
 	margin: 0px;
 	display: grid;
@@ -24,6 +23,8 @@ $full-width:100%;
 .gridFooter {
 	grid-area: footer;
 }
+
+
 
 @media only screen and (min-width: 0px) and (max-width: 768px){
 
@@ -50,3 +51,7 @@ $full-width:100%;
 }
 	}
 }
+
+
+
+
