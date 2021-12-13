@@ -41,7 +41,32 @@ a {
   }
   }
 	}
+	/*clases de bootstarp de index.html*/
+.navStyle1 {
+  background-color: lightblue !important;
+  }
 
+ .color{
+ 	color: #b54747 !important;
+ }
+
+.navStyle1 li a:hover {
+	color: #b54747 !important;
+}
+.navCenter {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+	text-align: center;
+}
+.fontB{
+	font-size: 20px;
+}
+.fontF{
+	font-family: roboto;
+}
+/*fin clases bootstrap*/
 @media only screen and (min-width: 0px) and (max-width: 768px){
 header {
 	font-family:map-get($colores,fontR,);
