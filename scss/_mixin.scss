@@ -6,18 +6,19 @@
 }
 
 /*mixin aplicado a la clase contentMediaImg1 ubicado en guias.html*/
-@mixin estiloImg($bradius,$border,$bcolor,$mt-10,$mb-10,$ml-10,$h,){
+@mixin estiloImg($bradius,$border,$bcolor,$mt-10,$mb-10,$ml-55,$h,$w,){
 	border-radius:$bradius;
 	border:$border;
 	border-color: $bcolor;
 	margin-top: $mt-10;
 	margin-bottom: $mb-10;
-	margin-left: $ml-10;
+	margin-left: $ml-55;
 	height:$h;
+	width:$w;
 }
 
 .contentMediaImg1{
-	@include estiloImg(15px,3px solid,$rojooscuro,$mt-10,$mb-10,$ml-10,200px,);
+	@include estiloImg(15px,3px solid,$rojooscuro,$mt-10,$mb-10,$ml-55,200px,auto,);
 }
 }
 
@@ -29,16 +30,16 @@
 }
 
 /*mixin aplicado a la clase contentMediaImg1 ubicado en guias.html*/
-@mixin estiloImg($bradius,$border,$bcolor,$mt-10,$mb-10,$ml-10,){
+@mixin estiloImg($bradius,$border,$bcolor,$mt-10,$mb-10,$ml-450,){
 	border-radius:$bradius;
 	border:$border;
 	border-color: $bcolor;
 	margin-top: $mt-10;
 	margin-bottom: $mb-10;
-	margin-left: $ml-10;
+	margin-left: $ml-450;
 }
 
 .contentMediaImg1{
-	@include estiloImg(15px,3px solid,$rojooscuro,$mt-10,$mb-10,$ml-10,);
+	@include estiloImg(15px,3px solid,$rojooscuro,$mt-10,$mb-10,$ml-450,);
 }
 }

@@ -129,7 +129,10 @@ header {
     border: 3px solid;
     border-color: darkred;
     margin-top: 10px;
-    margin-bottom: 10px; } }
+    margin-bottom: 10px; }
+  .margenimg {
+    justify-content: left;
+    margin-right: 500px; } }
 
 @media only screen and (min-width: 0px) and (max-width: 768px) {
   .gradiente {
@@ -231,8 +234,9 @@ footer {
     border-color: darkred;
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 10px;
-    height: 200px; } }
+    margin-left: 55px;
+    height: 200px;
+    width: auto; } }
 
 @media only screen and (min-width: 1024px) {
   /*mixin aplicado a la clase contentMediaImg1 ubicado en guias.html*/
@@ -242,4 +246,4 @@ footer {
     border-color: darkred;
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 10px; } }
+    margin-left: 450px; } }
