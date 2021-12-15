@@ -75,6 +75,11 @@ header {
         color: red; }
 
 /*clases de bootstarp de index.html*/
+.tituloLogoBoot {
+  background-image: url(../assets/psicopattern.jpg);
+  background-size: 30%;
+  background-repeat: repeat; }
+
 .navStyle1 {
   background-color: lightblue !important; }
 
@@ -101,7 +106,7 @@ header {
 @media only screen and (min-width: 0px) and (max-width: 768px) {
   header {
     font-family: roboto;
-    width: 100%; }
+    /*width: 100%; se elimina el width momentaneamente ya que me esta chocando en la media mobile*/ }
   .tituloLogo {
     display: flex;
     justify-content: center;
