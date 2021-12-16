@@ -6,10 +6,20 @@ iframe {
 	width: auto;
 	height: auto;
 }
+.agendaYconsultaForm {
+  border: 3px solid darkcyan !important;
+  border-radius: 4px !important;
+  font-family:$roboto;
+}
 	}
 @media only screen and (min-width: 1024px) {
 
 .contentMediaIframe {
 	text-align: center;
+}
+.agendaYconsultaForm {
+  border: 3px solid darkcyan !important;
+  border-radius: 4px !important;
+  font-family:$roboto;
 }
 }

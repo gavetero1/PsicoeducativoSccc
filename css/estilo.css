@@ -90,7 +90,7 @@ header {
   color: #b54747 !important; }
 
 .navCenter {
-  position: absolute;
+  /*position: absolute;*/
   width: 100%;
   left: 0;
   top: 0;
@@ -146,8 +146,17 @@ header {
     border-color: darkred;
     margin-top: 10px;
     margin-bottom: 10px;
-    width: auto;
-    height: 200px; } }
+    margin-left: 35px;
+    width: 300px;
+    height: 250px; }
+  .contentMediaImgEmpresa {
+    border-radius: 100px;
+    border: 3px solid;
+    border-color: darkred;
+    margin-top: 30px; }
+  .contentMedia {
+    display: flex;
+    justify-content: center; } }
 
 @media only screen and (min-width: 1024px) {
   .contentMediaGuias {
@@ -161,7 +170,15 @@ header {
     margin-bottom: 10px; }
   .margenimg {
     justify-content: left;
-    margin-right: 500px; } }
+    margin-right: 500px; }
+  .contentMediaImgEmpresa {
+    border-radius: 100px;
+    border: 3px solid;
+    border-color: darkred;
+    margin-top: 30px; }
+  .contentMedia {
+    display: flex;
+    justify-content: center; } }
 
 @media only screen and (min-width: 0px) and (max-width: 768px) {
   .gradiente {
@@ -181,11 +198,19 @@ header {
     text-align: center; }
   iframe {
     width: auto;
-    height: auto; } }
+    height: auto; }
+  .agendaYconsultaForm {
+    border: 3px solid darkcyan !important;
+    border-radius: 4px !important;
+    font-family: roboto; } }
 
 @media only screen and (min-width: 1024px) {
   .contentMediaIframe {
-    text-align: center; } }
+    text-align: center; }
+  .agendaYconsultaForm {
+    border: 3px solid darkcyan !important;
+    border-radius: 4px !important;
+    font-family: roboto; } }
 
 .parrafo1Y2, .parrafo3 {
   margin-left: 30px;
