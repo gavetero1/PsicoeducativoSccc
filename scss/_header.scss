@@ -72,7 +72,13 @@ a {
 .fontF{
 	font-family: roboto;
 }
-
+.hoverb{
+		color:map-get($colores,negro,)!important;
+		text-decoration: none;
+		&:hover{
+			color:red !important;
+		}
+  }
 /*fin clases bootstrap*/
 @media only screen and (min-width: 0px) and (max-width: 768px){
 header {

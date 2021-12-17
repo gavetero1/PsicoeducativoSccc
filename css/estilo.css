@@ -102,6 +102,12 @@ header {
 .fontF {
   font-family: roboto; }
 
+.hoverb {
+  color: black !important;
+  text-decoration: none; }
+  .hoverb:hover {
+    color: red !important; }
+
 /*fin clases bootstrap*/
 @media only screen and (min-width: 0px) and (max-width: 768px) {
   header {
@@ -146,7 +152,7 @@ header {
     border-color: darkred;
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 35px;
+    /*margin-left: 35px; ESTO SE BORRA PARA QUE LAS IMG DE MOBILE QUEDEN BIEN CENTRADAS*/
     width: 300px;
     height: 250px; }
   .contentMediaImgEmpresa {
