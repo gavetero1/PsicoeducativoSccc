@@ -121,7 +121,8 @@ header {
     background-repeat: repeat; }
     .tituloLogo h1 {
       margin: auto 0;
-      font-weight: 500; }
+      font-weight: 500;
+      font-size: 35px; }
     .tituloLogo a {
       margin: auto 0;
       text-decoration: none;
@@ -189,7 +190,13 @@ header {
 @media only screen and (min-width: 0px) and (max-width: 768px) {
   .gradiente {
     background-image: linear-gradient(lightblue, white);
-    height: auto; } }
+    height: auto; }
+  .h2Iframe {
+    text-align: start;
+    margin-left: 30px;
+    font-family: roboto;
+    font-size: 20px;
+    margin-right: 30px; } }
 
 @media only screen and (min-width: 1024px) {
   .gradiente {
@@ -288,6 +295,45 @@ footer {
 /*bootstrap*/
 .footerB {
   background-color: lightblue; }
+
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  footer {
+    font-family: roboto; }
+  .gridFooter {
+    background-color: lightblue;
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 10px; }
+  .footerLogo {
+    display: flex;
+    justify-content: left;
+    margin-right: 35px; }
+  .navFooterStyle {
+    font-size: 15px;
+    display: flex;
+    justify-content: start;
+    margin-right: 35px; }
+    .navFooterStyle ul {
+      padding: 0; }
+      .navFooterStyle ul li {
+        list-style-type: none; }
+        .navFooterStyle ul li a {
+          color: black;
+          text-decoration: none; }
+          .navFooterStyle ul li a:hover {
+            color: red; }
+  .footerStyleRss {
+    margin-right: 35px; }
+    .footerStyleRss ul {
+      display: flex;
+      padding: 0; }
+      .footerStyleRss ul li {
+        list-style-type: none;
+        margin-right: 15px; }
+  /*bootstrap*/
+  .footerB {
+    background-color: lightblue; } }
 
 /*aplicacion de un mixin*/
 @media only screen and (min-width: 0px) and (max-width: 768px) {
