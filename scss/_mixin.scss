@@ -12,13 +12,13 @@
 	border-color: $bcolor;
 	margin-top: $mt-10;
 	margin-bottom: $mb-10;
-	margin-left: $ml-55;
+	margin-left: $ml-27;
 	height:$h;
 	width:$w;
 }
 
 .contentMediaImg1{
-	@include estiloImg(15px,3px solid,$rojooscuro,$mt-10,$mb-10,$ml-55,200px,auto,);
+	@include estiloImg(15px,3px solid,$rojooscuro,$mt-10,$mb-10,$ml-27,200px,auto,);
 }
 }
 
