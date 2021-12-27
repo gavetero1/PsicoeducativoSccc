@@ -1,3 +1,7 @@
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  .over {
+    overflow-x: hidden; } }
+
 /*manejo de variables, aplica a todo el css*/
 .lightblue {
   color: lightblue; }
@@ -196,7 +200,11 @@ header {
     margin-left: 30px;
     font-family: roboto;
     font-size: 20px;
-    margin-right: 30px; } }
+    margin-right: 30px; }
+  .psicoGabriel {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px; } }
 
 @media only screen and (min-width: 1024px) {
   .gradiente {
@@ -204,7 +212,11 @@ header {
   .h2Iframe {
     text-align: start;
     margin-left: 30px;
-    font-family: roboto; } }
+    font-family: roboto; }
+  .psicoGabriel {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px; } }
 
 @media only screen and (min-width: 0px) and (max-width: 768px) {
   .contentMediaIframe {
@@ -296,6 +308,9 @@ footer {
 .footerB {
   background-color: lightblue; }
 
+.h3rss {
+  margin-top: 10px; }
+
 @media only screen and (min-width: 0px) and (max-width: 768px) {
   footer {
     font-family: roboto; }
@@ -333,7 +348,10 @@ footer {
         margin-right: 15px; }
   /*bootstrap*/
   .footerB {
-    background-color: lightblue; } }
+    background-color: lightblue; }
+  .h3rss {
+    margin-top: 10px; }
+  /*clase para darle margin top al titulos rss debido a que al aplicar nav boot omitio ciertos margentes*/ }
 
 /*aplicacion de un mixin*/
 @media only screen and (min-width: 0px) and (max-width: 768px) {

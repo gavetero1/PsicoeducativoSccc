@@ -9,8 +9,11 @@
 	font-family:map-get($colores,fontR,);
 	font-size: 20px;
 	margin-right: 30px;
-
-
+}
+.psicoGabriel {
+	display: flex;
+	justify-content: center;
+	margin-top:$mt-10;
 }
 }
 @media only screen and (min-width: 1024px){
@@ -22,5 +25,10 @@
 	margin-left: 30px;
 	font-family:map-get($colores,fontR,);
 
+}
+.psicoGabriel {
+	display: flex;
+	justify-content: center;
+	margin-top:$mt-10;
 }
 }

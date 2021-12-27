@@ -10,3 +10,8 @@ $ml-30:30px;
 $ml-55:55px;
 $ml-450:450px;
 $ml-27:27px;
+@media only screen and (min-width: 0px) and (max-width: 768px){
+.over{
+	overflow-x:hidden;
+}
+}
