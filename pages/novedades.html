@@ -10,6 +10,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100;1,900&display=swap" rel="stylesheet">
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 	<link rel="stylesheet" href="../css/estilo.css">
 
 </head> 
@@ -25,15 +26,34 @@
 		</div>
 		<!-- Cierre logo -->
 		<!--  inicio nav -->
-		<nav>
-			<ul class="navStyle">
-				<li><a href="../index.html">Inicio</a></li>
-				<li><a href="agendayconsultas.html">Agenda y Consultas</a></li>
-				<li><a href="guias.html">Guias</a></li>
-				<li><a href="#">Novedades</a></li>
-				<li><a href="empresa.html">Empresa</a></li>
-			</ul>
-		</nav>
+		<div>
+					<nav class="navbar navbar-expand-lg navbar-light bg-light col-12 navStyle1 justify-content-lg-center pb-lg-4 navStyle1">
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+
+						<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+							<ul class="navCenter navbar-nav mt-2 mt-lg-0 justify-content-center lead font-weight-bold">
+								<li class="nav-item active">
+									<a class="nav-link color fontB" href="../index.html">Inicio <span class="sr-only">(current)</span></a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link text-dark fontB" href="pages/agendayconsultas.html">Agenda y Consulta</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link text-dark fontB" href="pages/guias.html">Guias</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link text-dark fontB" href="pages/novedades.html">Novedades</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link text-dark fontB" href="pages/empresa.html">Empresa</a>
+								</li>
+							</ul>
+
+						</div>
+					</nav>
+				</div>
 	<!-- cierre nav-->
 	</header>
 	<!-- Fin encabezado del sitio -->
@@ -109,5 +129,7 @@
 	<script>
 		AOS.init();
 	</script>
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
 </body>
 </html>
