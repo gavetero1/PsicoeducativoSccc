@@ -297,6 +297,9 @@ footer {
         .navFooterStyle ul li a:hover {
           color: red; }
 
+.hoverFooterB {
+  color: black !important; }
+
 .footerStyleRss {
   margin-right: 35px; }
   .footerStyleRss ul {
