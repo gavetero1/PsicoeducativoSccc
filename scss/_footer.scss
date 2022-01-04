@@ -35,6 +35,8 @@ a {
 }
 }
 }
+.hoverFooterB{
+	color:black !important;}
 
 .footerStyleRss {
 	margin-right: 35px;
@@ -50,6 +52,9 @@ li {
 /*bootstrap*/
 .footerB{
 	background-color: lightblue;
+}
+.h3rss{
+	margin-top:$mt-10;
 }
 
 @media only screen and (min-width: 0px) and (max-width: 768px){
@@ -105,5 +110,9 @@ li {
 .footerB{
 	background-color: lightblue;
 }
+.h3rss{
+	margin-top:$mt-10;
+}
+/*clase para darle margin top al titulos rss debido a que al aplicar nav boot omitio ciertos margentes*/
 
 	}

@@ -1,3 +1,24 @@
+@media only screen and (min-width: 1024px) {
+
+@mixin estiloFuente($color,$fSize){
+	color:$color;
+	font-size:$fSize;
+}
+
+/*mixin aplicado a la clase contentMediaImg1 ubicado en guias.html*/
+@mixin estiloImg($bradius,$border,$bcolor,$mt-10,$mb-10,$ml-450,){
+	border-radius:$bradius;
+	border:$border;
+	border-color: $bcolor;
+	margin-top: $mt-10;
+	margin-bottom: $mb-10;
+	margin-left: $ml-450;
+}
+
+.contentMediaImg1{
+	@include estiloImg(15px,3px solid,$rojooscuro,$mt-10,$mb-10,$ml-450,);
+}
+}
 /*aplicacion de un mixin*/
 @media only screen and (min-width: 0px) and (max-width: 768px) {
 @mixin estiloFuente($color,$fSize){
@@ -19,27 +40,5 @@
 
 .contentMediaImg1{
 	@include estiloImg(15px,3px solid,$rojooscuro,$mt-10,$mb-10,$ml-30,200px,auto,);
-}
-}
-
-@media only screen and (min-width: 1024px) {
-
-@mixin estiloFuente($color,$fSize){
-	color:$color;
-	font-size:$fSize;
-}
-
-/*mixin aplicado a la clase contentMediaImg1 ubicado en guias.html*/
-@mixin estiloImg($bradius,$border,$bcolor,$mt-10,$mb-10,$ml-450,){
-	border-radius:$bradius;
-	border:$border;
-	border-color: $bcolor;
-	margin-top: $mt-10;
-	margin-bottom: $mb-10;
-	margin-left: $ml-450;
-}
-
-.contentMediaImg1{
-	@include estiloImg(15px,3px solid,$rojooscuro,$mt-10,$mb-10,$ml-450,);
 }
 }

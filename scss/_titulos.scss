@@ -1,3 +1,22 @@
+
+@media only screen and (min-width: 1024px){
+.gradiente {
+	background-image: linear-gradient(lightblue,white);
+	}
+.h2Iframe{
+	text-align: start;
+	margin-left: 30px;
+	font-family:map-get($colores,fontR,);
+}
+.psicoGabriel {
+	display: flex;
+	justify-content: center;
+	margin-top:$mt-10;
+}
+.font24 {
+	font-size:24px;
+}
+}
 @media only screen and (min-width: 0px) and (max-width: 768px){
 	.gradiente {
 	background-image: linear-gradient(lightblue,white);
@@ -10,15 +29,11 @@
 	font-size: 20px;
 	margin-right: 30px;
 }
+.psicoGabriel {
+	display: flex;
+	justify-content: center;
+	margin-top:10px;
 }
-@media only screen and (min-width: 1024px){
-.gradiente {
-	background-image: linear-gradient(lightblue,white);
-	}
-.h2Iframe{
-	text-align: start;
-	margin-left: 30px;
-	font-family:map-get($colores,fontR,);
+}
 
-}
-}
+
